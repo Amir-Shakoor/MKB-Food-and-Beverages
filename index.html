@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="MKB Food and Beverage — quality food and refreshing beverages under one trusted brand." />
+  <title>MKB Food & Beverage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header" id="top">
+  <div class="container nav-wrap">
+    <a class="brand" href="#home" aria-label="MKB home"><img src="assets/mkb-logo.png" alt="MKB Food and Beverage logo"></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a><a href="#about">About Us</a><a href="#food">Food</a><a href="#beverages">Beverages</a><a href="#products">Products</a><a href="#distributor">Distributor</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-gold quote-btn" href="#contact">Get a Quote</a>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-orb food-orb"></div><div class="hero-orb drink-orb"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">MKB FOOD & BEVERAGE</span>
+      <h1>Quality in Every Bite.<br><span>Refreshment in Every Sip.</span></h1>
+      <p>Bringing dependable food essentials and refreshing beverages together under one trusted brand.</p>
+      <div class="actions"><a class="btn btn-gold" href="#products">Explore Our Products →</a><a class="btn btn-outline" href="#contact">Contact Us →</a></div>
+    </div>
+    <div class="hero-mark"><img src="assets/mkb-logo.png" alt="MKB Food and Beverage"></div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="explore-title">
+ <div class="container"><div class="section-head"><p class="kicker">OUR RANGE</p><h2 id="explore-title">Explore <span>MKB</span></h2><p>Food essentials and beverages designed for homes, retailers and businesses.</p></div>
+ <div class="category-grid">
+   <article class="category food-card" id="food"><div><span class="category-icon">🍴</span><h3>FOOD</h3><p>Rice · Flour · Cooking Oil · Spices · Pulses · Sauces · Snacks</p><a href="#products">Explore Food →</a></div><div class="category-art">🌾 🫙 🍚</div></article>
+   <article class="category beverage-card" id="beverages"><div><span class="category-icon">🥤</span><h3>BEVERAGES</h3><p>Drinking Water · Juices · Soft Drinks · Flavoured Beverages</p><a href="#products">Explore Beverages →</a></div><div class="category-art">💧 🧃 🥤</div></article>
+ </div></div>
+</section>
+
+<section class="section products-section" id="products">
+ <div class="container"><div class="section-head"><p class="kicker">QUALITY FOR EVERYDAY NEEDS</p><h2>Our Featured <span>Products</span></h2><p>Initial product categories for the MKB portfolio. Product details can be updated later.</p></div>
+ <div class="product-grid" id="productGrid"></div>
+ </div>
+</section>
+
+<section class="section about" id="about">
+ <div class="container about-grid"><div class="about-visual"><div class="building"><img src="assets/mkb-logo.png" alt="MKB brand mark"><strong>MKB</strong><span>FOOD & BEVERAGE</span></div></div>
+ <div><p class="kicker">ABOUT MKB</p><h2>Food & Refreshment<br><span>You Can Trust</span></h2><p>MKB Food and Beverage is focused on bringing quality food and refreshing beverage products to homes, businesses and retail markets. Our goal is to build a trusted brand through quality, consistency and customer satisfaction.</p><a class="btn btn-gold" href="#contact">Discover MKB →</a></div></div>
+</section>
+
+<section class="section why"><div class="container"><div class="section-head"><h2>Why Choose <span>MKB?</span></h2></div><div class="benefits"><div>◆<b>Quality Focused</b></div><div>🌿<b>Selected Products</b></div><div>🚚<b>Reliable Supply</b></div><div>♨<b>One Trusted Brand</b></div><div>👥<b>Bulk Orders</b></div><div>✓<b>Customer Service</b></div></div></div></section>
+
+<section class="partner" id="distributor"><div class="container partner-grid"><div><p class="kicker light">BUSINESS PARTNERSHIPS</p><h2>Grow Your Business With MKB</h2><p>Retailer, wholesaler, restaurant, supermarket or distributor? Partner with MKB and grow with us.</p><div class="actions"><a class="btn btn-gold" href="#contact" data-inquiry="Distributor Partnership">Become a Distributor →</a><a class="btn btn-outline" href="#contact" data-inquiry="Business Quote">Request Business Quote →</a></div></div><div class="partner-icons"><span>🏪<small>Retailers</small></span><span>🍽️<small>Restaurants</small></span><span>🛒<small>Supermarkets</small></span><span>🏢<small>Distributors</small></span></div></div></section>
+
+<section class="section contact" id="contact"><div class="container contact-grid"><div><p class="kicker">CONTACT</p><h2>Let's <span>Connect</span></h2><p>Have a product, business or distribution inquiry? Send us a message and our team can follow up.</p><div class="contact-note">Contact details can be added here once finalized.</div></div>
+<form id="inquiryForm" novalidate><div class="form-row"><label>Name<input name="name" required placeholder="Your name"></label><label>Phone / WhatsApp<input name="phone" required placeholder="03XX XXXXXXX"></label></div><div class="form-row"><label>Email<input name="email" type="email" placeholder="name@example.com"></label><label>Inquiry Type<select name="type"><option>General Inquiry</option><option>Product Inquiry</option><option>Business Quote</option><option>Distributor Partnership</option></select></label></div><label>Message<textarea name="message" rows="4" required placeholder="How can MKB help you?"></textarea></label><button class="btn btn-gold" type="submit">Send Inquiry →</button><p class="form-status" id="formStatus" role="status"></p></form></div></section>
+</main>
+
+<footer><div class="container footer-grid"><div class="footer-brand"><img src="assets/mkb-logo.png" alt="MKB logo"><p>Quality food and refreshing beverages under one trusted brand.</p></div><div><b>Quick Links</b><p><a href="#about">About</a> · <a href="#products">Products</a> · <a href="#contact">Contact</a></p></div><div><b>Follow MKB</b><p>Facebook · Instagram · LinkedIn</p></div></div><div class="container copyright">© 2026 MKB Food and Beverage. All Rights Reserved.</div></footer>
+<script src="script.js"></script>
+</body></html>
